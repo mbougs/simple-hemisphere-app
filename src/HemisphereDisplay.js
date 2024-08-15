@@ -25,7 +25,7 @@ const HemisphereDisplay = ({ latitude }) => {
                 <img src={picture} alt="north-south-hemisphere" />
             </div>
             <div className="ui teal bottom attached label">
-                <h1>{ text }</h1>
+                <h1 style={{textAlign: 'center'}}>{ text }</h1>
             </div>
             </div>
         </div>
